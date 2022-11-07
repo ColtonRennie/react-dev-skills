@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Select() {
   return (
-    <select>
+    <select className='select'>
       <option>1</option>
       <option>2</option>
       <option>3</option>

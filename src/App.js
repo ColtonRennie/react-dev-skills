@@ -4,17 +4,17 @@ import SkillList from './components/SkillList'
 import NewSkillForm from './components/NewSkillForm'
 
 export default function App() {
-  const [skills, setSkills] = useState([
+  const [skills] = useState([
     { name: 'HTML', level: 5 },
     { name: 'CSS', level: 3 },
     { name: 'JavaScript', level: 4 },
     { name: 'Python', level: 2 },
   ])
 
-  function handleAddSkills(skill) {
-    const newSkills = [...skills, skill]
-    setSkills(newSkills)
-  }
+  // function handleAddSkills(skill) {
+  //   const newSkills = [...skills, skill]
+  //   setSkills(newSkills)
+  // }
 
   return (
     <div className='App'>
